@@ -1,0 +1,19 @@
+{
+  "name": "ta_training_js",
+  "version": "1.0.0",
+  "description": "Homework of QA automation with JS tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrgarshin/ta_training-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrgarshin/ta_training-JS/issues"
+  },
+  "homepage": "https://github.com/mrgarshin/ta_training-JS#readme"
+}
