@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mrgarshin/ta_training-JS/issues"
   },
-  "homepage": "https://github.com/mrgarshin/ta_training-JS#readme"
+  "homepage": "https://github.com/mrgarshin/ta_training-JS#readme",
+  "devDependencies": {
+    "fs-extra": "^11.1.0"
+  }
 }
