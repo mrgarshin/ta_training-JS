@@ -22,6 +22,6 @@ console.log(string/number);
 console.log(number/boolean);
 
 //Explicit conversion
-console.log();
-console.log();
-console.log();
+console.log(Number(number));
+console.log(String(string));
+console.log(Boolean(boolean));
