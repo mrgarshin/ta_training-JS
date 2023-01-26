@@ -6,6 +6,8 @@
 //+Write a function for calculating the type of argument and type output to the console
 //Write a function that determines whether a number is prime or not
 
+const { fchown } = require("fs-extra");
+
 //create a car object
 const car = {
   color: 'black',
@@ -32,5 +34,12 @@ const typeOfArg = function(argument) {
   console.log(typeof(argument));
 }
 
-//Determine number prime or not
-
+//Determine prime or not
+function determPrime(argument) {
+  for (let i = 2; i <= Math.sqrt(argument);i++) {
+    if (argument % i === 0) {
+      return false;
+    } 
+  }
+  return argument > 1; 
+}
