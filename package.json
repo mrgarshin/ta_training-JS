@@ -18,5 +18,8 @@
   "homepage": "https://github.com/mrgarshin/ta_training-JS#readme",
   "devDependencies": {
     "fs-extra": "^11.1.0"
+  },
+  "dependencies": {
+    "commonjs": "^0.0.1"
   }
 }
