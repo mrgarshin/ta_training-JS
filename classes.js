@@ -5,7 +5,6 @@ class Animal {
   }
 }
 
-class Cat extends Animal {
-
-}
+class Cat extends Animal {};
+const cat = new Cat;
 
